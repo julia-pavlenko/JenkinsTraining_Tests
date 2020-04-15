@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-04-13T14:29:27Z" name="TestAll" finished-at="2020-04-13T14:29:40Z" duration-ms="12889">
+    <groups>
+    </groups>
+    <test started-at="2020-04-13T14:29:27Z" name="Tests" finished-at="2020-04-13T14:29:40Z" duration-ms="12889">
+      <class name="CalculatorTest">
+        <test-method signature="addTwoNumbers()[pri:0, instance:CalculatorTest@27808f31]" started-at="2020-04-13T14:29:27Z" name="addTwoNumbers" finished-at="2020-04-13T14:29:27Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addTwoNumbers -->
+        <test-method signature="subtractTwoNumbers()[pri:0, instance:CalculatorTest@27808f31]" started-at="2020-04-13T14:29:27Z" name="subtractTwoNumbers" finished-at="2020-04-13T14:29:27Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- subtractTwoNumbers -->
+      </class> <!-- CalculatorTest -->
+      <class name="SeleniumTest">
+        <test-method signature="SimpleSeleniumTest()[pri:0, instance:SeleniumTest@436e852b]" started-at="2020-04-13T14:29:27Z" name="SimpleSeleniumTest" finished-at="2020-04-13T14:29:40Z" duration-ms="12874" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SimpleSeleniumTest -->
+      </class> <!-- SeleniumTest -->
+    </test> <!-- Tests -->
+  </suite> <!-- TestAll -->
+</testng-results>

@@ -1,0 +1,8 @@
+<suite name="TestAll">
+    <test name="Tests">
+        <classes>
+            <class name="CalculatorTest" />
+            <class name="SeleniumTest" />
+        </classes>
+    </test>
+</suite>
