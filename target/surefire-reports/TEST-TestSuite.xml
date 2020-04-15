@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="3" failures="1" name="TestSuite" time="0.031" errors="0" skipped="0">
+<testsuite tests="3" failures="0" name="TestSuite" time="11.576" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="14+36-1461"/>
@@ -43,7 +43,7 @@
     <property name="java.class.path" value="C:\Program Files\Maven\apache-maven-3.6.3\bin\..\boot\plexus-classworlds-2.6.0.jar"/>
     <property name="java.vm.specification.version" value="14"/>
     <property name="sun.arch.data.model" value="64"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean test"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher package"/>
     <property name="java.home" value="C:\Program Files\Java\jdk-14"/>
     <property name="user.language" value="en"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
@@ -60,19 +60,7 @@
     <property name="sun.stdout.encoding" value="cp866"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="CalculatorTest" name="addTwoNumbers" time="0"/>
+  <testcase classname="CalculatorTest" name="addTwoNumbers" time="0.015"/>
   <testcase classname="CalculatorTest" name="subtractTwoNumbers" time="0"/>
-  <testcase classname="SeleniumTest" name="SimpleSeleniumTest" time="0.031">
-    <failure message="The driver executable does not exist: C:\Users\alex\Desktop\JenkinsTraining\chromedriver_win32\chromedriver.exe" type="java.lang.IllegalStateException">java.lang.IllegalStateException: The driver executable does not exist: C:\Users\alex\Desktop\JenkinsTraining\chromedriver_win32\chromedriver.exe
-	at com.google.common.base.Preconditions.checkState(Preconditions.java:585)
-	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:146)
-	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:141)
-	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)
-	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)
-	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)
-	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
-	at SeleniumTest.SimpleSeleniumTest(SeleniumTest.java:17)
-</failure>
-  </testcase>
+  <testcase classname="SeleniumTest" name="SimpleSeleniumTest" time="11.561"/>
 </testsuite>

@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Command_line_suite" class="navigator-link">
-              <span class="suite-name border-failed">Command line suite</span>
+              <span class="suite-name border-passed">Command line suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -91,21 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">3 methods, 1 failed,   2 passed</span>
-                  </li>
-                  <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-Command_line_suite" class="hide-methods failed suite-Command_line_suite"> (hide)</a> <!-- hide-methods failed suite-Command_line_suite -->
-                      <a href="#" panel-name="suite-Command_line_suite" class="show-methods failed suite-Command_line_suite"> (show)</a> <!-- show-methods failed suite-Command_line_suite -->
-                    </span>
-                    <div class="method-list-content failed suite-Command_line_suite">
-                      <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Command_line_suite" title="SeleniumTest" class="method navigator-link" hash-for-method="SimpleSeleniumTest">SimpleSeleniumTest</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content failed suite-Command_line_suite -->
+                    <span class="method-stats">3 methods,   3 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -114,6 +100,11 @@
                       <a href="#" panel-name="suite-Command_line_suite" class="show-methods passed suite-Command_line_suite"> (show)</a> <!-- show-methods passed suite-Command_line_suite -->
                     </span>
                     <div class="method-list-content passed suite-Command_line_suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="SeleniumTest" class="method navigator-link" hash-for-method="SimpleSeleniumTest">SimpleSeleniumTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Command_line_suite" title="CalculatorTest" class="method navigator-link" hash-for-method="addTwoNumbers">addTwoNumbers</a> <!-- method navigator-link -->
@@ -136,9 +127,9 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Command_line_suite" class="panel Command_line_suite">
-          <div class="suite-Command_line_suite-class-failed">
+          <div class="suite-Command_line_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
+              <img src="passed.png"/>
               <span class="class-name">SeleniumTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -147,23 +138,10 @@
                   <a name="SimpleSeleniumTest">
                   </a> <!-- SimpleSeleniumTest -->
                   <span class="method-name">SimpleSeleniumTest</span>
-                  <div class="stack-trace">java.lang.IllegalStateException: The driver executable does not exist: C:\Users\alex\Desktop\JenkinsTraining\chromedriver_win32\chromedriver.exe
-	at com.google.common.base.Preconditions.checkState(Preconditions.java:585)
-	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:146)
-	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:141)
-	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)
-	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)
-	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)
-	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
-	at SeleniumTest.SimpleSeleniumTest(SeleniumTest.java:17)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1510)
-... Removed 37 stack frames
-</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Command_line_suite-class-failed -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
           <div class="suite-Command_line_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -242,7 +220,7 @@ data.addRows(3);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'SimpleSeleniumTest')
 data.setCell(0, 2, 'SeleniumTest')
-data.setCell(0, 3, 31);
+data.setCell(0, 3, 11559);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'subtractTwoNumbers')
 data.setCell(1, 2, 'CalculatorTest')
@@ -255,7 +233,7 @@ window.suiteTableData['Command_line_suite']= { tableData: data, tableDiv: 'times
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 31 ms</span>
+              <span class="suite-total-time">Total running time: 11 seconds</span>
               <div id="times-div-Command_line_suite">
               </div> <!-- times-div-Command_line_suite -->
             </div> <!-- times-div -->
@@ -288,16 +266,14 @@ return data;
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">subtractTwoNumbers</span>
-                <span class="method-start">0 ms</span>
+                <span class="method-start">15 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">SeleniumTest</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">SimpleSeleniumTest</span>
-                <span class="method-start">0 ms</span>
+                <span class="method-start">15 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9509816e-12cb-4fdf-8861-30cb97e89262" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SeleniumTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SeleniumTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/TestJenkins-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/Command line suite/Command line test.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/Command line suite/Command line test.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/Command line suite/Command line test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/Command line suite/Command line test.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Command line suite/testng-failed.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" afterDir="false" />
@@ -19,7 +15,9 @@
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Command line suite/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Command line suite/methods.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Command line suite/toc.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Command line suite/toc.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-failed.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/SeleniumTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/SeleniumTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -149,22 +147,22 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="851" y="560" key="FileChooserDialogImpl/0.0.2560.1400@0.0.2560.1400" timestamp="1586791547167" />
-    <state width="1696" height="329" key="GridCell.Tab.0.bottom" timestamp="1586951622165">
+    <state width="1696" height="329" key="GridCell.Tab.0.bottom" timestamp="1586952383130">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1696" height="329" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1586951622165" />
-    <state width="1696" height="329" key="GridCell.Tab.0.center" timestamp="1586951622165">
+    <state width="1696" height="329" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1586952383130" />
+    <state width="1696" height="329" key="GridCell.Tab.0.center" timestamp="1586952383130">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1696" height="329" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1586951622165" />
-    <state width="1696" height="329" key="GridCell.Tab.0.left" timestamp="1586951622165">
+    <state width="1696" height="329" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1586952383130" />
+    <state width="1696" height="329" key="GridCell.Tab.0.left" timestamp="1586952383130">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1696" height="329" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1586951622165" />
-    <state width="1696" height="329" key="GridCell.Tab.0.right" timestamp="1586951622165">
+    <state width="1696" height="329" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1586952383130" />
+    <state width="1696" height="329" key="GridCell.Tab.0.right" timestamp="1586952383130">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1696" height="329" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1586951622165" />
+    <state width="1696" height="329" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1586952383130" />
     <state x="650" y="401" key="Maven.ArtifactSearchDialog" timestamp="1586357544592">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
