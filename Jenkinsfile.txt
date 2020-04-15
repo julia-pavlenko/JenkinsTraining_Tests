@@ -4,7 +4,7 @@ pipeline {
        
       stage('Build') {
          steps {
-            git 'httpsgithub.comjulia-pavlenkoJenkinsTraining_Tests.git'
+            git 'https://github.com/julia-pavlenko/JenkinsTraining_Tests.git'
          }
       } 
       
@@ -22,10 +22,9 @@ pipeline {
       
       stage('Results') {
          steps {
-            junit 'targetsurefire-reportsTEST-.xml'
-               archiveArtifacts 'target.jar'
+            junit '**/target/surefire-reports/TEST-*.xml'
+            archiveArtifacts 'target/*.jar' 
          }
       }
    }
 }
-
