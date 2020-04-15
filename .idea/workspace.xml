@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9509816e-12cb-4fdf-8861-30cb97e89262" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit5 Test Class" />
+        <option value="JUnit4 Test Class" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1aGKZXSj2PlEAkLwWwdOGfCxj1J" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../simpleWebApp/customerapplication" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\alex\Desktop\TestJenkins\jars" />
+      <recent name="C:\Users\alex\Desktop\TestJenkins\lib" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Batch.run">
+    <configuration name="run" type="BatchConfigurationType" factoryName="Batch" temporary="true">
+      <module name="TestJenkins" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="WORKING_DIRECTORY" value="C:\Users\alex\Desktop\TestJenkins" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SCRIPT_NAME" value="run.bat" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CalculatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TestJenkins" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CalculatorTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CalculatorTest.addTwoNumbers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TestJenkins" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CalculatorTest" />
+      <option name="METHOD_NAME" value="addTwoNumbers" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C:/Users/alex/Desktop/TestJenkins/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestJenkins" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SeleniumTest.SimpleSeleniumTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestJenkins" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SeleniumTest" />
+      <option name="METHOD_NAME" value="SimpleSeleniumTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Batch.run" />
+        <item itemvalue="TestNG.C:/Users/alex/Desktop/TestJenkins/testng.xml" />
+        <item itemvalue="TestNG.SeleniumTest.SimpleSeleniumTest" />
+        <item itemvalue="JUnit.CalculatorTest" />
+        <item itemvalue="JUnit.CalculatorTest.addTwoNumbers" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9509816e-12cb-4fdf-8861-30cb97e89262" name="Default Changelist" comment="" />
+      <created>1586356546847</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1586356546847</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="539" y="379" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1586356862597">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="539" y="379" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1586356862597" />
+    <state x="851" y="560" key="FileChooserDialogImpl" timestamp="1586791547167">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="851" y="560" key="FileChooserDialogImpl/0.0.2560.1400@0.0.2560.1400" timestamp="1586791547167" />
+    <state width="1696" height="329" key="GridCell.Tab.0.bottom" timestamp="1586791553431">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1696" height="329" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1586791553431" />
+    <state width="1696" height="329" key="GridCell.Tab.0.center" timestamp="1586791553431">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1696" height="329" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1586791553431" />
+    <state width="1696" height="329" key="GridCell.Tab.0.left" timestamp="1586791553431">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1696" height="329" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1586791553431" />
+    <state width="1696" height="329" key="GridCell.Tab.0.right" timestamp="1586791553431">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1696" height="329" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1586791553431" />
+    <state x="650" y="401" key="Maven.ArtifactSearchDialog" timestamp="1586357544592">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="650" y="401" key="Maven.ArtifactSearchDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1586357544592" />
+    <state x="589" y="539" key="com.intellij.ide.util.TipDialog" timestamp="1586783821469">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="589" y="539" key="com.intellij.ide.util.TipDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1586783821469" />
+    <state x="856" y="427" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1586357582708">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="856" y="427" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1586357582708" />
+    <state x="607" y="462" key="new project wizard" timestamp="1586720675387">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="607" y="462" key="new project wizard/0.0.2560.1400@0.0.2560.1400" timestamp="1586720675387" />
+  </component>
+</project>
