@@ -1,13 +1,6 @@
 pipeline {
    agent any
    stages { 
-       
-      stage('Build') {
-         steps {
-            git 'https://github.com/julia-pavlenko/JenkinsTraining_Tests.git'
-         }
-      } 
-      
       stage('Test') {
          steps {
             bat mvn clean test
