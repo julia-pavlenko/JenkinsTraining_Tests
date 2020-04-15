@@ -11,7 +11,7 @@ public class SeleniumTest {
     @Test
     public static void SimpleSeleniumTest()
     {
-        System.setProperty("webdriver.chrome.driver","C:\\Users\\alex\\Desktop\\JenkinsTraining\\chromedriver_win32\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver","C:\\Users\\alex\\Desktop\\TestJenkins\\chromedriver_win32\\chromedriver.exe");
 
         // Create a new instance of the Firefox driver
         WebDriver driver = new ChromeDriver();
